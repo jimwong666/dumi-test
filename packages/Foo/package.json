@@ -1,0 +1,28 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father-build"
+  },
+  "keywords": [],
+  "author": "jim <798165604@qq.com>",
+  "license": "ISC",
+  "homepage": "https://github.com/jimwong666/dumi-test#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimwong666/dumi-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimwong666/dumi-test/issues"
+  }
+}

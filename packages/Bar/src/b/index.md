@@ -1,13 +1,12 @@
-
 ## Foo
 
 Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'dumi-test';
+import { foo } from 'dumi-test';
 
-export default () => <Foo title="First Demo" />;
+export default () => <foo title="First Demo" />;
 ```
 
 More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo

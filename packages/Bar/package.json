@@ -1,0 +1,37 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "father-build"
+  },
+  "keywords": [],
+  "author": "jim <798165604@qq.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "homepage": "https://github.com/jimwong666/dumi-test#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimwong666/dumi-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimwong666/dumi-test/issues"
+  }
+}

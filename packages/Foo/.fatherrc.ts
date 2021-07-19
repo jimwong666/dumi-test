@@ -2,6 +2,9 @@ export default {
   umd: {
     file: 'index',
     name: 'index',
+    globals: {
+      react: 'React',
+    },
   },
   cjs: { type: 'babel', lazy: true },
   esm: {

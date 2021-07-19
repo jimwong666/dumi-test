@@ -1,0 +1,11 @@
+{
+  "packages": ["packages/*"],
+  "command": {
+    "publish": {
+      "registry": "https://registry.npmjs.org/",
+      "ignoreChanges": ["*.md", "packages/*/src/"],
+      "message": "chore: publish"
+    }
+  },
+  "version": "independent"
+}
